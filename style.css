@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ADE8F4;
+}
+.container{
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 2rem;
+    
+}
+.game{
+    height: 80vmin;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80vmin;
+    flex-wrap: wrap;
+    background-color: #00B4D8;
+    gap: 20px;
+}
+.box{
+    height: 20vmin;
+    width: 20vmin;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0, 0, 1, 0.3;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color:#023E8A ;
+    color: aliceblue;
+}
+.hidden{
+    display: none;
+
+}
+
+.resetbtn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+    justify-items: center;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.msg{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 3rem;
+    padding-bottom: 70vh;
+}
+.msg p{
+    padding-bottom: 60px;
+}
+
+.Newgame{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+    justify-items: center;
+    background-color: rgb(66, 66, 66);
+    color: white;
+
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 4rem;
+    padding-top: 1vh;
+}
