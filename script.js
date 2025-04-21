@@ -33,7 +33,7 @@ const disableBoxes=()=>{
 // const drawMatch=()=>{
 //     para.innerText=`Match Draw! Start New game`;
 //     msg.classList.remove("hidden");
-}
+// }
 const showWinner = (winner)=>{
     para.innerText=`Congratulations! ${winner}`;
     msg.classList.remove("hidden");
@@ -54,7 +54,7 @@ const checkWinner=()=>{
             // else if(pos1 != pos2 || pos2 != pos3){
             //     disableBoxes();
             //     drawMatch(pos1);
-            }
+            // }
         }
 
     }
