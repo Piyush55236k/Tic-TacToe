@@ -30,9 +30,9 @@ const disableBoxes=()=>{
         box.disabled=true;
     }
 }
-const drawMatch=()=>{
-    para.innerText=`Match Draw! Start New game`;
-    msg.classList.remove("hidden");
+// const drawMatch=()=>{
+//     para.innerText=`Match Draw! Start New game`;
+//     msg.classList.remove("hidden");
 }
 const showWinner = (winner)=>{
     para.innerText=`Congratulations! ${winner}`;
@@ -51,9 +51,9 @@ const checkWinner=()=>{
                 showWinner(pos1);
                 
             }
-            else if(pos1 != pos2 || pos2 != pos3){
-                disableBoxes();
-                drawMatch(pos1);
+            // else if(pos1 != pos2 || pos2 != pos3){
+            //     disableBoxes();
+            //     drawMatch(pos1);
             }
         }
 
