@@ -51,7 +51,7 @@ const checkWinner=()=>{
                 showWinner(pos1);
                 
             }
-            else if(pos1 != pos2 && pos2 != pos3){
+            else if(pos1 != pos2 || pos2 != pos3){
                 disableBoxes();
                 drawMatch(pos1);
             }
